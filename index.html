@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Emayakeerthi">
+        <meta name="description" content="Tribute page of steve jobs created for Responsive Web design certification project">
+        <meta name="keywords" content="tribute page, steve jobs, freecodecamp project, Responsive web design certification project">
+        <title>Steve Jobs | Tribute Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+        <script src="https://kit.fontawesome.com/4a14f9e389.js" crossorigin="anonymous"></script>
+    </head>
+   <body>
+       <header>
+            <div class="showcase-container">
+                <div class="showcase-text">
+                    <div class="tribute-title">
+                        <h3 class="showcase-sub-txt first-subtxt">American Business Magnate</h3>
+                        <h1 id="title">Steve Jobs</h1>
+                        <div class="life-year">
+                            <div id="line"><hr></div>
+                            <div id="year"><h3 class="showcase-sub-txt">1955-2011</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-img" id="img-div">
+                    <img src="./img/showcase-img1.jpg" alt="" id="image">
+                </div>
+           </div>
+       </header>
+       <div id="tribute-info">
+           <section class="container about">
+                <h1 class="tribute-heading">About</h1>
+                <p class="tribute-content">
+                    Steven Paul Jobs was an American inventor, designer and 
+                    entrepreneur who was the co-founder, chief executive and chairman of Apple Computer. 
+                    Apple's revolutionary products, which include the iPod,
+                    iPhone and iPad, are now seen as dictating the evolution of modern technology.
+                </p>
+           </section>
+           <section class="container timeline">
+                <h1 class="tribute-heading">Time Line</h1>
+                <ul class="tribute-content">
+                    <li>
+                        <span class="list-heading">February 24, 1955</span> - Steven Paul Jobs is born in San Francisco to 
+                        Joanne Carole Schieble and Abdulfattah Jandali. 
+                        The then-unmarried couple give up their son to adoption. Paul and Clara Jobs become Jobs' 
+                        non-biological parents
+                    </li>
+                    <li>
+                        <span class="list-heading">1961</span> - The Jobs family moves to Mountain View, California,
+                         part of what would later become known as Silicon Valley.
+                    </li>
+                    <li>
+                        <span class="list-heading">1968</span> - 13-year-old Steve Jobs calls up Bill Hewlett and 
+                        gets a summer job at the HP factory.
+                    </li>
+                    <li>
+                        <span class="list-heading">1969</span> - Steve Jobs meets Steve Wozniak, 5 years his elder, 
+                        through a mutual friend. Woz and Steve share a love of electronics, Bob Dylan, and pranks.
+                    </li>
+                    <span id="read-more">
+                        <li>
+                            <span class="list-heading">1976</span> - Wozniak and Jobs show the first board for the Apple I
+                             at the Homebrew Computer Club. On April 1, Jobs, Wozniak and Ron Wayne incorporate as Apple Computer.
+                        </li>
+                        <li>
+                            <span class="list-heading">December 12, 1980</span> - Apple Inc. goes public, increasing Steve Jobs' net worth from 
+                            dozens of millions of dollars to over $200 million
+                        </li>
+                        <li>
+                            <span class="list-heading">September 17, 1985</span> - Steve Jobs resigns from Apple and starts NeXT
+                             with five other refugees from Apple
+                        </li>
+                        <li>
+                            <span class="list-heading">February 03, 1986</span> - For $10 million, buys the Graphics Group division 
+                            of Lucasfilm that becomes Pixar Animation Studios
+                        </li>
+                        <li>
+                            <span class="list-heading">April, 1989</span> - Steve Jobs is named 'Entrepreneur of the decade' by Inc. magazine
+                        </li>
+                        <li>
+                            <span class="list-heading">December 10, 1996</span> - Returns to Apple, as an adviser, after it buys NeXT for $429 million.
+                        </li>
+                        <li>
+                            <span class="list-heading">October 23, 2001</span> - The now successful Apple released the first iPod in 2001.
+                             Jobs had no idea how much it would change the company or technology.
+                        </li>
+                        <li>
+                            <span class="list-heading">2003</span> - Jobs was diagnosed with pancreatic cancer.
+                        </li>
+                        <li>
+                            <span class="list-heading">January 9, 2007</span> - Jobs introduced the item most closely associated with Apple today: the iPhone
+                        </li>
+                        <li>
+                            <span class="list-heading">April, 2009</span> - After taking a medical leave of absence, Jobs, 
+                            only weeks from death, had a liver transplant.
+                        </li>
+                        <li>
+                            <span class="list-heading">2010</span> - Jobs announced the release of the first tablet,
+                             the iPad, and an improved iPhone, the iPhone 4.
+                        </li>
+                        <li>
+                            <span class="list-heading">August 24, 2011</span> - Jobs resigned from Apple, handing the reigns to Tim Cook. His health had worsened
+                        </li>
+                        <li>
+                            <span class="list-heading">October 5, 2011</span> - Steve Jobs dies at home, surrounded by his family
+                        </li>
+                    </span>
+                </ul>
+                <div class="btn-sec"><button type="button" class="btn btn-primary btn-dark readmore-btn" id="read-more-btn" onclick="readMore()">Read More</button></div>
+           </section>
+           <section class="container wikipedia">
+               <div>
+                   <h3 class="tribute-heading wikipedia-entry">If you have time, you should read more about this incredible human being on his 
+                     <a href="https://en.wikipedia.org/wiki/Steve_Jobs" id="triubute-link" target="_blank">Wikipedia entry.</a></h3>
+               </div>
+           </section>
+       </div>
+       <footer>
+           <div class="footer">
+               <div class="footer-text">
+                   <h4>Design and Developed by <a href="https://www.linkedin.com/in/emayakeerthi" target="_blank" rel="noopener noreferrer">Emayakeerthi</a></h4>
+               </div>
+               <div class="outer-footer">
+                    <div class="social-media">
+                        <ul>
+                            <li class="sm-content follow-me">Follow me on </li>
+                            <li class="sm-content"><a href="https://www.instagram.com/emaya_official/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                            <li class="sm-content"><a href="https://twitter.com/emayakeerthi" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+                            <li class="sm-content"><a href="https://www.linkedin.com/in/emayakeerthi" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="sm-content"><a href="https://github.com/emayakeerthi" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                         <ul>
+                             <li class="sm-content">Reach me </li>
+                             <li class="sm-content"><a href="mailto:nemayakeerthi@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i>Email</a></li>
+                             <li class="sm-content"><a href="tel:+918428366507" target="_blank" rel="noopener noreferrer"><i class="fas fa-mobile-alt"></i>Phone</a></li>
+                         </ul>
+                    </div>
+               </div>
+           </div>
+       </footer>
+       <script src="./main.js"></script>
+   </body>
+</html>

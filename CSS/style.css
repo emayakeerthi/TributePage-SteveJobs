@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro',sans-serif,open-sans;
+    font-weight: 400;
+    background-color: #e3e4e8;
+}
+.showcase-container{
+    background-color: #52555c;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.showcase-text{
+    background-color: #52555c;
+    flex: 1;
+    color: lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showcase-img{
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.showcase-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.showcase-text h1{
+    font-size: 85px;
+    text-transform: uppercase;
+}
+.showcase-text h3{
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.life-year{
+    display: flex;
+    flex-direction: row;
+}
+#year{
+    padding: 0 10px;
+}
+
+#line hr{
+    display: inline-block;
+    margin: 0;
+    width: 90px;
+    height: 0px;
+    text-align: center;
+    border: 2px #d3d3d3 solid;
+}
+.container{
+    max-width: 80%;
+    margin: 30px auto;
+    padding: auto 20px;
+}
+
+.tribute-heading{
+    font-size: 4ch;
+    font-weight: bold;
+    background-color: none;
+    color: #717790;
+    padding: 2px;
+    border-bottom: 3px solid #717790;
+}
+.tribute-content{
+    font-size: 2.9ch;
+    color: #868ca0;
+    text-align: justify;
+}
+.tribute-content li{
+    padding: 20px 0;
+}
+.tribute-content .list-heading{
+    color: #717790;
+    font-weight: bold;
+}
+
+#read-more{
+    display: none;
+}
+.btn-sec{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.readmore-btn{
+    font-size: 20px;
+    color: lightgrey;
+    background-color: #52555c;
+    text-align: center;
+    border: none;
+    margin: 10px;
+    padding: 8px 25px;
+    border: 3px solid rgb(58, 56, 56);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.readmore-btn:hover{
+    color: white;
+    background-color: rgb(58, 56, 56);
+}
+
+.wikipedia-entry{
+    font-size: 3ch;
+    border: none;
+    text-align: justify;
+}
+.wikipedia-entry a{
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: dashed;
+}
+
+/*footer*/
+footer{
+    background-color: #5e626b;
+    width: 100%;
+}
+.footer{
+    color: lightgray;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+}
+
+.footer-text h4{
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: .2em;
+}
+.footer-text a{
+    text-decoration: none;
+    color: lightgrey;
+    font-weight: 600;
+}
+.footer-text a:hover{
+    color: rgb(250, 246, 246);
+    border-bottom: 2px solid rgb(250, 246, 246);
+}
+.outer-footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex: 1fr 1fr;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.outer-footer ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.outer-footer li{
+    font-size: 17px;
+    padding: 0 10px;
+    color: lightgray;
+}
+.outer-footer li:first-child{
+    word-spacing: .26em;
+    font-weight: 600;
+    padding-right: 15px;
+}
+.social-media a,.social-media i{
+    text-decoration: none;
+    color: rgb(175, 180, 185);
+}
+.social-media a,.social-media i:hover{
+    color:rgb(250, 246, 246);
+    transform: scale(1.3);
+}
+.contact a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(175, 180, 185);
+}
+.contact i{
+    padding-right: 8px;
+}
+.contact i:hover{
+    color:rgb(250, 246, 246);
+}
+.contact a:hover{
+    border-bottom: 2px solid rgb(250, 246, 246);
+    color:rgb(250, 246, 246);
+}
+
+
+/*For mobile devices*/
+@media (max-width: 300px){
+    .showcase-container{
+        display: block;
+    }
+    .tribute-title{
+        margin: 15px auto; 
+        padding: 8px;
+    }
+    .showcase-text h1{
+        font-size: 48px;
+    }
+    .showcase-text h3{
+        font-size: 10px;
+    }
+    #line hr{
+        width: 50px;
+        border: 1px solid;
+    }
+    #year{
+        align-self: center;
+    }
+    .tribute-heading{
+        font-size: 2.3ch;
+    }
+    .tribute-content{
+        font-size: 2ch;
+    }
+    .wikipedia-entry{
+        font-size: 2.5ch;
+    }
+    .footer-text h4{
+        font-size: 15px;
+    }
+    .outer-footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .outer-footer ul{
+        padding: 0;
+    }
+    .outer-footer li{
+        font-size: 12px;
+        padding: 0 6px;
+    }
+    .outer-footer li:first-child{
+        padding-right: 5px;
+    }
+    .social-media ul{
+        padding-bottom: 10px;
+    }
+    .contact a{
+        margin: 0;
+    }
+
+}
+
+
+@media(min-width: 300px) and (max-width: 500px){
+    .showcase-container{
+        display: block;
+    }
+    .tribute-title{
+        margin: 20px auto; 
+        padding: 10px;
+    }
+    .showcase-text h1{
+        font-size: 55px;
+        margin: auto;
+    }
+    .showcase-text h3{
+        font-size: 13px;
+        margin: auto;
+    }
+    .first-subtxt{
+        padding-left: 5px;
+    }
+    #line hr{
+        width: 60px;
+        border: 1px solid;
+    }
+    #year{
+        align-self: center;
+    }
+    .tribute-heading{
+        font-size: 2.3ch;
+    }
+    .tribute-content{
+        font-size: 2ch;
+    }
+    .readmore-btn{
+        font-size: 15px;
+        margin: 8px;
+        padding: 6px 20px;
+        border: 2px solid rgb(58, 56, 56);
+        border-radius: 10px;
+    }
+    .readmore-btn:hover{
+        color: white;
+        background-color: rgb(58, 56, 56);
+    }
+    .wikipedia-entry{
+        font-size: 2.3ch;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-text h4{
+        font-size: 15px;
+    }
+    .outer-footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .outer-footer ul{
+        padding: 0;
+    }   
+    .outer-footer li{
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .outer-footer li:first-child{
+        padding-right: 10px;
+    }
+    .social-media ul{
+        padding-bottom: 10px;
+    }
+    .contact a{
+        margin: 0;
+    }
+    .contact li:first-child{
+        padding-right: 30px;;
+    }
+
+}
+@media(max-width: 700px) and (min-width: 501px){
+    .showcase-container{
+        display: block;
+    }
+
+    .tribute-title{
+        margin: 20px auto; 
+        padding: 10px;
+    }
+    .showcase-text h1{
+        font-size: 70px;
+    }
+    .showcase-text h3{
+        font-size: 20px;
+    }
+    #line hr{
+        width: 70px;
+        border: 1px solid;
+    }
+    .outer-footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .outer-footer ul{
+        padding: 0;
+    }   
+    .outer-footer li{
+        font-size: 17px;
+        padding: 0 10px;
+    }
+    .outer-footer li:first-child{
+        padding-right: 30px;
+    }
+    .social-media ul{
+        padding-bottom: 10px;
+    }
+    .contact a{
+        margin: 0;
+    }
+    .contact li:first-child{
+        padding-right: 20px;;
+    }
+}
+
+
+@media(max-width: 1000px) and (min-width: 701px){
+    .tribute-title{
+        margin: 30px auto; 
+        padding: 15px;
+    }
+    .showcase-text h1{
+        font-size: 60px;
+    }
+    .showcase-text h3{
+        font-size: 15px;
+    }
+    .tribute-heading{
+        font-size: 3ch;
+    }
+    .tribute-content{
+        font-size: 2ch;
+    }
+    .wikipedia-entry{
+        font-size: 2.5ch;
+    }
+    #line hr{
+        width: 50px;
+        border: 1px solid;
+    }
+
+
+}
+@media(max-width: 1100px) and (min-width: 1000px){
+    .showcase-text h1{
+        font-size: 65px;
+    }
+    .showcase-text h3{
+        font-size: 17px;
+    }
+    .tribute-heading{
+        font-size: 4ch;
+    }
+    .tribute-content{
+        font-size: 3ch;
+    }
+    .wikipedia-entry{
+        font-size: 3.5ch;
+    }
+}
