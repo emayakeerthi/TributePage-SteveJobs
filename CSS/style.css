@@ -189,12 +189,15 @@ footer{
     text-decoration: none;
     color: rgb(175, 180, 185);
 }
+
 .contact i{
     padding-right: 8px;
 }
+
 .contact i:hover{
     color:rgb(250, 246, 246);
 }
+
 .contact a:hover{
     border-bottom: 2px solid rgb(250, 246, 246);
     color:rgb(250, 246, 246);
@@ -206,53 +209,68 @@ footer{
     .showcase-container{
         display: block;
     }
+
     .tribute-title{
         margin: 15px auto; 
         padding: 8px;
     }
+
     .showcase-text h1{
         font-size: 48px;
     }
+
     .showcase-text h3{
         font-size: 10px;
     }
+
     #line hr{
         width: 50px;
         border: 1px solid;
     }
+
     #year{
         align-self: center;
     }
+
     .tribute-heading{
         font-size: 2.3ch;
     }
+
     .tribute-content{
         font-size: 2ch;
     }
+
     .wikipedia-entry{
         font-size: 2.5ch;
     }
+
     .footer-text h4{
         font-size: 15px;
     }
+
     .outer-footer{
         display: flex;
         justify-content: center;
         align-content: center;
     }
+
     .outer-footer ul{
         padding: 0;
     }
+
     .outer-footer li{
         font-size: 12px;
         padding: 0 6px;
     }
+
     .outer-footer li:first-child{
         padding-right: 5px;
     }
+
     .social-media ul{
         padding-bottom: 10px;
     }
+
     .contact a{
         margin: 0;
     }
@@ -264,34 +282,44 @@ footer{
     .showcase-container{
         display: block;
     }
+
     .tribute-title{
         margin: 20px auto; 
         padding: 10px;
     }
+
     .showcase-text h1{
-        font-size: 55px;
+        font-size: 50px;
         margin: auto;
     }
+
     .showcase-text h3{
         font-size: 13px;
         margin: auto;
     }
+
     .first-subtxt{
         padding-left: 5px;
     }
+
     #line hr{
         width: 60px;
         border: 1px solid;
     }
+
     #year{
         align-self: center;
     }
+
     .tribute-heading{
-        font-size: 2.3ch;
+        font-size: 2.5ch;
+        margin-bottom: 10px;
     }
+
     .tribute-content{
         font-size: 2ch;
     }
+
     .readmore-btn{
         font-size: 15px;
         margin: 8px;
