@@ -43,6 +43,9 @@ body{
     font-size: 25px;
     letter-spacing: 5px;
 }
+.showcase-subtxt.first-subtxt{
+    margin-left: 7px;
+}
 
 .life-year{
     display: flex;
@@ -327,46 +330,58 @@ footer{
         border: 2px solid rgb(58, 56, 56);
         border-radius: 10px;
     }
+
     .readmore-btn:hover{
         color: white;
         background-color: rgb(58, 56, 56);
     }
+
     .wikipedia-entry{
         font-size: 2.3ch;
     }
+
     .footer{
         text-align: center;
     }
+
     .footer-text h4{
         font-size: 15px;
     }
+
     .outer-footer{
         display: flex;
         justify-content: center;
         align-content: center;
     }
+
     .outer-footer ul{
         padding: 0;
     }   
+
     .outer-footer li{
         font-size: 14px;
         padding: 0 10px;
     }
+
     .outer-footer li:first-child{
         padding-right: 10px;
     }
+
     .social-media ul{
         padding-bottom: 10px;
     }
+
     .contact a{
         margin: 0;
     }
+    
     .contact li:first-child{
         padding-right: 30px;;
     }
 
 }
-@media(max-width: 700px) and (min-width: 501px){
+@media (min-width: 560px) and (max-width: 760px){
+
     .showcase-container{
         display: block;
     }
@@ -375,44 +390,99 @@ footer{
         margin: 20px auto; 
         padding: 10px;
     }
+
     .showcase-text h1{
-        font-size: 70px;
+        font-size: 65px;
     }
+
     .showcase-text h3{
-        font-size: 20px;
+        font-size: 16px;
     }
+
     #line hr{
-        width: 70px;
+        width: 60px;
         border: 1px solid;
     }
+
+    .tribute-heading{
+        font-size: 2.8ch;
+        margin-bottom: 10px;
+    }
+
+    .tribute-content{
+        font-size: 2.2ch;
+    }
+
+    .readmore-btn{
+        font-size: 16px;
+        margin: 8px;
+        padding: 8px 22px;
+        border: 2px solid rgb(58, 56, 56);
+        border-radius: 10px;
+    }
+
+    .readmore-btn:hover{
+        color: white;
+        background-color: rgb(58, 56, 56);
+    }
+
     .outer-footer{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-content: center;
     }
     .outer-footer ul{
+        display: flex;
+        flex-direction: column;
         padding: 0;
-    }   
+    }  
+
+    .sm-content.follow-me, .sm-content.reach-me{
+        padding-bottom: 10px;
+    }
+
+    .grid-sm{
+        display: grid;
+        grid-template-columns: repeat(2,1.5fr);
+        grid-template-rows: repeat(2,1.5fr);
+        grid-row-gap: 10px;
+    }
+
+    .grid-cont{
+        display: grid;
+        grid-template-rows: repeat(2,1.5fr);
+        grid-row-gap: 10px;
+    }
+
     .outer-footer li{
         font-size: 17px;
         padding: 0 10px;
     }
-    .outer-footer li:first-child{
-        padding-right: 30px;
+
+    .wikipedia-entry{
+        font-size: 2.3ch;
     }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer-text h4{
+        font-size: 18px;
+    }
+
     .social-media ul{
         padding-bottom: 10px;
     }
     .contact a{
         margin: 0;
     }
-    .contact li:first-child{
-        padding-right: 20px;;
-    }
+
+
+
 }
 
-
-@media(max-width: 1000px) and (min-width: 701px){
+@media(max-width: 1000px) and (min-width: 901px){
     .tribute-title{
         margin: 30px auto; 
         padding: 15px;
